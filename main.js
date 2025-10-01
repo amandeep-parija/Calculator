@@ -12,9 +12,6 @@ let buttons = document.querySelectorAll( '.button');
         }else if(e.target.innerHTML == '<i class="fa-solid fa-delete-left"></i>'){
             string = string.slice(0, -1);
             document.querySelector('input').value = string;
-        }else if(e.target.innerHTML == 'C'){
-            string = '';
-            document.querySelector('input').value = string;
         }else if(e.target.innerHTML == 'CE'){
             string = '';
             document.querySelector('input').value = string;
